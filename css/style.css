@@ -1,0 +1,78 @@
+@charset "UTF-8";
+* {
+  border: solid #333 1px;
+  font-family: "Sanchez", serif;
+}
+
+/* 導覽列 */
+.nav-yellow {
+  background-color: #ebdbb2;
+  opacity: 0.8;
+  width: 100%;
+}
+
+.form-control {
+  width: 20%;
+  background-color: #d5c4a1;
+}
+
+.bg-yellow {
+  background-color: #fbf1c7;
+}
+
+/* 底圖 */
+#home {
+  background-color: #fbf1c7;
+  min-height: 100vh;
+}
+
+.bg-img {
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  margin: auto;
+  padding: auto;
+}
+
+.sidebar {
+  height: auto;
+}
+
+.post {
+  padding: 0% 8%;
+}
+
+.post-big-img img {
+  height: 200px;
+}
+
+.post-title {
+  font-size: 38px;
+  margin: 2% 0%;
+  color: #509494;
+}
+
+.post-date {
+  font-size: 12px;
+}
+
+.post-content {
+  font-size: 16px;
+}
+
+.post-writer {
+  margin: 2% 0%;
+  font-size: 12px;
+}
+
+.post-link {
+  color: #509494;
+  text-decoration: none;
+  margin-bottom: 2%;
+}/*# sourceMappingURL=style.css.map */

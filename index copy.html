@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web test 2022</title>
+<!-- 嵌入 Boostrap css/js & 自訂 css-->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="text/javascript" src="/scripts/bootstrap.js"></script>
+
+<!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+
+<!-- icon -->
+    <link rel="stylesheet" href="/css/all.css">
+
+</head>
+<body>
+    <!-- 底圖 -->
+    <!-- <div id="home" class="bg-img"> -->
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-light nav-yellow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <div class="d-flex justify-content-end collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- search -->
+                <form class="d-flex">
+                <!-- nav-button -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-moon"></i></a>
+                    </li>
+                </ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- </div> -->
+
+    <!-- 文章區＆側邊欄 -->
+    <div class="container-fluid">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row">
+            <div class="col-md-8">
+                <!-- <article class="post"> -->
+                    <h1 class="post-title">Embed Video Files</h1>
+                    <h5 class="post-date">2022-04-26</h5>
+                    <div class="post-big-img"><img src="/images/blog-1.png" alt=""></div>
+                    <h5 class="post-writer">By Alexandre Van Thuan</h5>
+                    <p class="post-content">The theme optimizes images by default with a custom Hugo’s markdown render hook: The theme creates resized versions for each image, ranging from 100 to 700 pixels wide. It generates WebP versions for each size if the original image format isn’t WebP. The theme keeps the original file format as a fallback for browsers that don’t support the WebP format. Images in SVG format are embedded as-is. Blog Post Cover Images # Use the front matter of your posts to add cover images:</p>
+                    <a class="post-link" href="/index.html">Read more ></a>
+                <!-- </article> -->
+            </div>
+            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        </div>
+    </div>
+</body>
+</html>
